@@ -1,0 +1,26 @@
+.card-cat{
+    color: #ca3c3f;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.card-item{
+    padding-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.card-name{
+    display: inline-block;
+}
+
+.card-pre{
+    font-size: 18px;
+    float: right;
+}
+
+.card-desc{
+    font-size: 12px;
+    color:#999999;
+}
