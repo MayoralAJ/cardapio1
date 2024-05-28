@@ -2,38 +2,91 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Haruy Sushi</title>
 </head>
 <body>
-    <section class="card" id="cardid">
-        <h1 class="card-cat">
-            Cardápio
-        </h1>
-        <div>
-            Sushi & Sashimi
-        </div>
 
-        <div class="card-item">
-            <div class="card-name">Combinado Sushi</div>
-            <div class="card-desc">10 Sashimis</div>
-            <div class="card-pre">R$ 99,00</div>
+    <header class="header">
+        <img src="./img/logo.png" alt="">
+        <nav class="menu">
+            <ul class="menu-links">
+                <li><a href="#cardapioid">CARDÁPIO</a></li>
+                <li><a href="https://wa.me/551599991234" target="_blank">PEÇA PELO WHATSAPP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Seção do banner principal-->
+    <section class="banner">
+        <!--Conteúdo do banner-->
+        <div class="coluna">
+            <p>O verdadeiro sabor da cozinha japonesa</p>
+            <p><a class="botao" href="#cardapioid">
+                VEJA O CARDÁPIO
+            </a></p>
         </div>
-        <div class="card-item">
-            <div class="card-name">Combinado Hot</div>
-            <div class="card-desc">10 Sashimis</div>
-            <div class="card-pre">R$ 99,00</div>
-        </div>
-        <div class="card-item">
-            <div class="card-name">Combinado Sushi</div>
-            <div class="card-desc">10 Sashimis</div>
-            <div class="card-pre">R$ 115,00</div>
-        </div>
-        <div class="card-item">
-            <div class="card-name">Combinado Hot</div>
-            <div class="card-desc">10 Sashimis</div>
-            <div class="card-pre">R$ 120,00</div>
+        <div class="coluna">
+            <img src="./img/banner.png" alt="Prato">
         </div>
     </section>
+    <section class="cardapio" id="cardapioid">
+        <h1>Cardápio</h1>
+        <div class="cardapio-categoria">
+            Sushi & Sashimi
+        </div>
+        <div class="cardapio-item">
+            <div class="cardapio-nome">Combinado Sushi</div>
+            <div class="cardapio-preco">R$ 99,00</div>
+            <div class="cardapio-descricao">10 Sashimis Variados, 10 uramakis Filadélfia e 10 uramakis</div>
+        </div>
+        <div>
+            <div class="cardapio-item">
+                <div class="cardapio-nome">Combinado Hot</div>
+                <div class="cardapio-preco">R$ 99,00</div>
+                <div class="cardapio-descricao">1 temaki Filadélfia Médio, 10 uramakis Filadélfia e 10 hot Filadélfia</div>
+        </div>
+        <div>
+            <div class="cardapio-item">
+                <div class="cardapio-nome">Combinado Sushi</div>
+                <div class="cardapio-preco">R$ 115,00</div>
+                <div class="cardapio-descricao">10 Sashimis Variados, 10 uramakis Filadélfia e 10 Uramakis</div>
+        </div>
+        <div class="cardapio-item">
+                <div class="cardapio-nome">Combinado Hot</div>
+                <div class="cardapio-preco">R$ 120,00</div>
+                <div class="cardapio-descricao">1 temaki Filadélfia Médio, 10 uramakis Filadélfia e 10 hot Filadélfia</div>
+        </div>
+    
+    <div class="cardapio-categoria">
+        Bebidas
+    </div>
+    <div class="cardapio-item">
+        <div class="cardapio-nome">Refrigerante</div>
+        <div class="cardapio-preco">R$ 8,00</div>
+        <div class="cardapio-descricao">Lata (coca-cola , guaraná)</div>
+    </div>
+    <div class="cardapio-item">
+        <div class="cardapio-nome">Aguá</div>
+        <div class="cardapio-preco">R$ 4,00</div>
+        <div class="cardapio-descricao">garrafa 500ml</div>
+    </div>
+    <div class="cardapio-item">
+        <div class="cardapio-nome">Cerveja</div>
+        <div class="cardapio-preco">R$ 14,00</div>
+        <div class="cardapio-descricao">Heineken</div>
+    </div>
+</section>
+<footer>
+    <h3><b>Haruy Sushi</b></h3>
+    <p>Rua Prof. Toledo, 500, centro - Sorocaba</p>
+    <p>WhatsApp: (15) 9999-1234</p>
+    <p>Aberto todos os dias das 14h às 23h</p>
+</footer>
+<a class="linkwhatsapp" href="https://wa.me/551599991234" target="_blank">
+    <img src="./whatsapp.png" alt="">
+</a>
+
 </body>
 </html>
